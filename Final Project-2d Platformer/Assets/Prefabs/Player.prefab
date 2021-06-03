@@ -157,7 +157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 5
   jumpspeed: 5
-  deathKick: {x: 10, y: 10}
+  deathKick: {x: 0, y: 10}
+  PlayerLaserPrefab: {fileID: 8731954435890706176, guid: 1d67644cd62c8b4489e34f0de1cecd83, type: 3}
+  projectileSpeed: 20
 --- !u!61 &1307716445
 BoxCollider2D:
   m_ObjectHideFlags: 0

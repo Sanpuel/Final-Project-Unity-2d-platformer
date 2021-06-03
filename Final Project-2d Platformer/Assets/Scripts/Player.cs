@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -9,6 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField] float runSpeed = 5;
     [SerializeField] float jumpspeed = 5f;
     [SerializeField] Vector2 deathKick = new Vector2(25f, 25f);
+    [SerializeField] GameObject PlayerLaserPrefab;
+    [SerializeField] float projectileSpeed = 10f;
 
 
     //State
@@ -40,6 +43,20 @@ public class Player : MonoBehaviour
         Jump();
         FlipSprite();
         Die();
+        Fire();
+    }
+
+    private void Fire()
+    {
+       if (Input.GetButtonDown("Fire1"))
+        {
+            GameObject laser = Instantiate(
+                PlayerLaserPrefab, transform.position,
+                Quaternion.identity) as GameObject;
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, 0);
+
+        }
+      
     }
 
     private void Run()
@@ -83,5 +100,6 @@ public class Player : MonoBehaviour
         {
             transform.localScale = new Vector2(4*Mathf.Sign(myRigidBody.velocity.x), 4f);
         }
+       
     }
 }
