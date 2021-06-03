@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 543859b960c296c4aa454d4f2af77094
+guid: 7b8fa2c87d8eaa8428a8ac2ed590eb54
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6996850596952658542
-    second: Slime  clone_0
-  - first:
-      213: 8616264704525633355
-    second: Slime  clone_1
-  - first:
-      213: 4642143036313572972
-    second: Slime  clone_2
-  - first:
-      213: -7020457226854145241
-    second: Slime  clone_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -53,17 +41,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -123,93 +111,16 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Slime  clone_0
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 88
-        width: 26
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29d2826f37136ee90800000000000000
-      internalID: -6996850596952658542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime  clone_1
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 88
-        width: 21
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b478cfb091f139770800000000000000
-      internalID: 8616264704525633355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime  clone_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 18
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6616041f743c6040800000000000000
-      internalID: 4642143036313572972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime  clone_3
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 18
-        width: 21
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 723e8802953529e90800000000000000
-      internalID: -7020457226854145241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: -25, y: -24}
+      - {x: -9, y: 14}
+      - {x: -7, y: 12}
+      - {x: 0, y: -24}
+    - - {x: 0, y: -25}
+      - {x: 12, y: 15}
+      - {x: 25, y: -25}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0

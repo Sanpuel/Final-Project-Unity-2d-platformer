@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SlimeMovement : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 1f;
+    [SerializeField] float movespeed = 1f;
     Rigidbody2D myRigidBody;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,23 @@ public class SlimeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myRigidBody.velocity = new Vector2(moveSpeed, 0f);
+        if (IsFacingRight())
+        {
+            myRigidBody.velocity = new Vector2(movespeed, 0f);
+        }
+        else
+        {
+            myRigidBody.velocity = new Vector2(-movespeed, 0f);
+        }
+    }
+
+    bool IsFacingRight()
+    {
+        return transform.localScale.x > 0;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        transform.localScale = new Vector2(-4.84f*(Mathf.Sign(myRigidBody.velocity.x)), 6.17f);
     }
 }
