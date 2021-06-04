@@ -18,7 +18,7 @@ TagManager:
   - Enemy
   - Hazzards
   - Player Projectile
-  - 
+  - Interactbles
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 2064306059
+    locked: 0
+  - name: Interactables
+    uniqueID: 4139954621
     locked: 0
   - name: Player
     uniqueID: 1656888047

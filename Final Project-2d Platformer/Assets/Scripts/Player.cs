@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
                 PlayerLaserPrefab, transform.position,
                 Quaternion.identity) as GameObject;
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, 0);
+           
 
         }
       
@@ -78,6 +79,7 @@ public class Player : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Death");
             GetComponent<Rigidbody2D>().velocity = deathKick;
+            FindObjectOfType<GameSesion>().ProcessPlayerDeath();
         }
     }
 
