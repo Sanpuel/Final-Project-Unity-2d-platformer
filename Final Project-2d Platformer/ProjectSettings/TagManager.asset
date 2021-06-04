@@ -19,7 +19,7 @@ TagManager:
   - Hazzards
   - Player Projectile
   - Interactbles
-  - 
+  - Decurations
   - 
   - 
   - 
@@ -50,14 +50,14 @@ TagManager:
   - name: Interactables
     uniqueID: 4139954621
     locked: 0
+  - name: Decuration/bouce
+    uniqueID: 2999392097
+    locked: 0
   - name: Player
     uniqueID: 1656888047
     locked: 0
   - name: Hazzards
     uniqueID: 152582327
-    locked: 0
-  - name: Decuration/bouce
-    uniqueID: 2999392097
     locked: 0
   - name: Foreground
     uniqueID: 1140427163
