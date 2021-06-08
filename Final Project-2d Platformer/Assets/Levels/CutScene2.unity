@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.8, y: 25.74}
+  m_AnchoredPosition: {x: -15.6, y: 25.74}
   m_SizeDelta: {x: 223.59729, y: 81.483505}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41529377
@@ -193,9 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You come across an abandon Lab. It appears that this strange slime like
-    life form used to be sentient. What could have happend to them? You decide to
-    enter the lab.
+  m_Text: You come into a room with a corpse. The Coprse starts to move.
 --- !u!222 &41529378
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -629,7 +627,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1795568214}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: StartFirstLevel
+        m_MethodName: LoadFourthLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

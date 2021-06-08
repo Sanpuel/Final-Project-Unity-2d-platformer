@@ -361,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354990922}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.178663, y: 1.798127, z: 1.3153067}
+  m_LocalPosition: {x: -21.478664, y: 2.668127, z: 1.3153067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1286444809}
@@ -602,7 +602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508230451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.47, y: 3.45, z: 0}
+  m_LocalPosition: {x: -8.8, y: 3.7, z: 0}
   m_LocalScale: {x: 8, y: 6.972699, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29fd86c2d0f39945ba7c3f1dd633ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 80000
+  health: 50000
   LevelLoadDelay: 2
   LevelExitSlowMoFactor: 0.2
 --- !u!61 &508230456
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2953539824cf21645a7560d40f10d5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 7000
+  health: 999999
 --- !u!70 &508230460
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -743,9 +743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64ca0b4a647b5e4089e618350413353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 6
+  projectileSpeed: 1
   TurretProjecitlePrefab: {fileID: 2649090575362046234, guid: d18886940ae0aab4885af496e6fec611, type: 3}
-  firePeriod: 5
+  firePeriod: 2
 --- !u!1 &1055167145
 GameObject:
   m_ObjectHideFlags: 3
@@ -958,7 +958,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096213878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.9, y: 1.14, z: -11.266548}
+  m_LocalPosition: {x: -22.2, y: 2.01, z: -11.266548}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 455323393}
@@ -4581,7 +4581,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332609497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.178663, y: 1.798127, z: 1.3153067}
+  m_LocalPosition: {x: -21.478664, y: 2.668127, z: 1.3153067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1055167146}
@@ -17012,11 +17012,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5262840772599037597, guid: dfc1bd468469a844c89b8dea5468d171, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.9
+      value: -22.2
       objectReference: {fileID: 0}
     - target: {fileID: 5262840772599037597, guid: dfc1bd468469a844c89b8dea5468d171, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.14
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 5262840772599037597, guid: dfc1bd468469a844c89b8dea5468d171, type: 3}
       propertyPath: m_LocalPosition.z

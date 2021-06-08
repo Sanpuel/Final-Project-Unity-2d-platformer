@@ -15,11 +15,17 @@ EditorBuildSettings:
     path: Assets/Levels/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Levels/CutScene2.unity
+    guid: 30aff694b3094164a87b6d2bb0184aa5
+  - enabled: 1
     path: Assets/Levels/Level 2.unity
     guid: 2a36634667cfc104b861b67cab74c341
   - enabled: 1
-    path: Assets/Levels/CutScene2.unity
-    guid: 30aff694b3094164a87b6d2bb0184aa5
+    path: Assets/Levels/CUtscene3.unity
+    guid: c9086f19c35b32e4c81a5d50815a4040
+  - enabled: 1
+    path: Assets/Levels/Boss Intro.unity
+    guid: bda8f0dc6958f3a4d86e4f6237f32728
   - enabled: 1
     path: Assets/Levels/Level 3.unity
     guid: da55328ca9447a149ab92b2f047f8101
